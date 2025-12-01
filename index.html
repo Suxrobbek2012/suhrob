@@ -26,7 +26,7 @@
     .hero .text{flex:1}
     .footer{position:absolute;left:28px;bottom:18px;color:var(--muted);font-size:13px}
     .controls{position:absolute;right:28px;bottom:18px;display:flex;gap:8px}
-    button{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);color:#dff3e6;padding:8px 12px;border-radius:8px;cursor:pointer}
+    button{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);color:#dff3e6;padding:16px 28px;font-size:20px;border-radius:14px;cursor:pointer;touch-action:manipulation;}
     .thumbs{display:flex;gap:12px;align-items:center}
     .thumbs img{width:72px;height:48px;object-fit:cover;border-radius:8px;border:2px solid rgba(255,255,255,0.04);cursor:pointer}
     .notes{position:absolute;right:28px;top:28px;color:var(--muted);font-size:13px}
@@ -146,12 +146,15 @@
           <li><a href="https://unsplash.com/photos/1509395176047-4a66953fd231" target="_blank" rel="noopener">Источник изображений</a></li>
         </ol>
       </div>
+      <div class="footer">Можно сохранить как PDF через печать — "Save as PDF"</div>
+      <div class="notes">Слайд 6 из 6</div>
     </section>
 
+    <!-- Controls -->
     <div class="controls" aria-hidden>
-      <button id="prevBtn">Prev</button>
-      <button id="nextBtn">Next</button>
-      <button id="startBtn">Start</button>
+      <button id="prevBtn">Назад</button>
+      <button id="nextBtn">Вперёд</button>
+      <button id="startBtn">Начало</button>
     </div>
 
   </div>
